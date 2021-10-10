@@ -17,8 +17,42 @@ int main()
 
     printf("Stack Menu\n\n\n");
     printf("1. PUSH");
-    printf("2. POP");
-    printf("3. PEEK");
-    printf("4. DISPLAY");
-    printf("0. EXIT");
+    printf("\n2. POP");
+    printf("\n3. PEEK");
+    printf("\n4. DISPLAY");
+    printf("\n0. EXIT");
+
+    do{
+        printf("Enter Your Choice: ");
+        scanf("%d",&choice);
+
+        switch(choice)
+        {
+            case 1:
+                {
+                    //
+                    break;
+                }
+            case 2:
+                {
+                    //
+                    break;
+                }
+            case 3:
+                {
+                    //
+                    break;
+                }
+            case 4:
+                {
+                    //
+                    break;
+                }
+            case 0:
+                {
+                    choice=0;
+                    break;
+                }
+        }
+    }while(choice != 0);
 }
